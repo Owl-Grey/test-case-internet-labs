@@ -2,8 +2,55 @@ body{
   font-family: Graphik LCG;
   margin:0;
 }
-h1{
+hr{
   margin: 0;
+  background: #ECEFF2;
+  border: 0;
+  height: 1px;
+}
+h2{
+  font-style: normal;
+  font-weight: 600;
+  font-size: 40px;
+  line-height: 56px;
+  color: #191C1F;
+  text-align: center;
+}
+
+.header{
+  height: 960px;
+  background-blend-mode: multiply;
+  background-image: url("images/Lunch_atop_a_Skyscraper 1.png");
+  background-position: top;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-color: rgba( 48, 108, 234, 0.8);
+}
+.header_menu{
+  width: 1213px;
+  margin: auto;
+  display: flex;
+  margin-bottom: 261px;
+}
+.header_menu img{
+  margin-right: 605px;
+}
+.header_menu p a{
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 28px;
+  margin-left: 24px;
+  color: #FFFFFF;
+  text-decoration-line: none;
+}
+.header_menu p:hover{
+  text-decoration-line: underline;
+  cursor: pointer
+}
+.header_text h1{
+  width: 748px;
+  margin: auto;
   font-style: normal;
   font-weight: 600;
   font-size: 52px;
@@ -11,18 +58,9 @@ h1{
   text-align: center;
   color: #FFFFFF;
 }
-.header_text{
-  width: 1920px;
-  height: 960px;
-  background: #2A6CEA;
-  opacity: 0.8;
-}
-.header img{
-  position: absolute;
-  z-index: -100;
-}
-.header p{
-  margin: 0;
+.header_text p{
+  margin-top: 18px;
+  margin-bottom: 92px;
   font-style: normal;
   font-weight: normal;
   font-size: 18px;
@@ -30,15 +68,21 @@ h1{
   text-align: center;
   color: #FFFFFF;
 }
+
 .header_button{
-  position: absolute;
+  margin: auto;
   width: 251px;
   height: 64px;
   background: #ECEFF2;
   border-radius: 4px;
-
+  /* margin-bottom: 313px; */
+}
+.header_button:hover{
+  background: #FFFFFF;
+  cursor: pointer;
 }
 .header_button p{
+  position: absolute;
   font-style: normal;
   font-weight: 600;
   font-size: 20px;
@@ -46,7 +90,410 @@ h1{
   text-align: center;
   color: #191C1F;
   flex: none;
+  border: 0;
+  flex-grow: 0;
+  margin-left: 40px;
+  margin-right: 40px;
+}
+.content{
+  width: 1216px;
+  margin: auto;
+}
+.instruction{
+  margin-top: 80px;
+}
+.instruction_cont{
+  display: flex;
+}
+.instruction_block{
+  width: 280px;
+}
+.instruction_block h6{
+  margin-top: 19.82px;
+  margin-bottom: 4px;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 24px;
+}
+.instruction_block p{
+  margin: 0;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 24px;
+}
+.instruction h2{
+  width: 338px;
+  margin: auto;
+  margin-bottom: 73px;
+}
+.instruction_block:nth-child(-n+3){
+  margin-right: 32px;
+}
+.third{
+  margin-top: 80px;
+  display: flex;
+  margin-bottom: 80px;
+}
+.third_cont{
+  margin-right: 32px;
+  height: 198px;
+  align-self: center;
+}
+.third_cont h3{
+  font-style: normal;
+  font-weight: 600;
+  font-size: 32px;
+  line-height: 40px;
+  margin-bottom: 18px;
+  margin-top: 0;
+}
+.third_cont p{
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 28px;
+  color: #5E646A;
+  margin: 0;
+}
+.review{
+  height: 564px;
+  background: #F6F8FA;
+}
+.review_cont{
+
+  margin-top: 57px !important;
+  margin: auto;
+  width: 1087px;
+}
+.review_cont h2{
+  margin:0;
+  padding-top: 57px;
+  color: #191C1F;
+}
+.owl-items{
+  width: 341px !important;
+  height: 316px;
+  background: #FFFFFF;
+  box-shadow: 0px 5px 24px rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+}
+.owl-stage-outer{
+  height: 326px;
+}
+.item{
+  position: absolute;
+}
+.owl-head img{
+  width: 44px !important;
+  height: 44px;
+  margin-right: 16px;
+}
+.owl-head h6{
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 24px;
+  margin: 4px 0px;
+}
+.owl-head p{
+  font-style: normal;
+  font-weight: normal;
+  font-size: 12px;
+  line-height: 16px;
+  margin: 0;
+}
+.owl-head{
+  position: relative;
+  margin-top: 22px !important;\
+  margin-bottom: 20px !important;
+  width: 297px;
+  margin-left: 22px;
+  display: flex;
+}
+.owl-cont{
+  position: relative;
+  width: 297px;
+  margin-left: 22px;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 24px;
+}
+.owl-carousel{
+  height: 326px;
+  margin-top: 32px;
+}
+.owl-nav{
+  height: 0;
+}
+.owl-dots{
+  height: 8px;
+  margin-bottom: 40px;
+  margin-top:35px;
+}
+.owl-dot span{
+  margin: 0 !important;
+  width: 8px!important;
+  height: 8px!important;
+  margin-right: 12px!important;
+}
+.owl-dot.active span{
+  background: #2A6CEA !important;
+}
+.owl-button.next{
+  transform: scale(-1,1);
+}
+.owl-button{
+  background: #f6f8fa !important;
+  position: absolute;
+}
+
+.owl-nav .disabled{
+  opacity: 1 !important;
+}
+.owl-button path{
+  fill:#C2C8CD;
+}
+
+.owl-next:hover {
+    background: #f6f8fa !important;
+    cursor: pointer;
+
+}
+.next:hover path{
+  fill: #2A6CEA;
+}
+.owl-prev:hover {
+    background: #f6f8fa !important;
+}
+.prev:hover path{
+  fill: #2A6CEA;
+}
+.next{
+  right:-55px;
+  top:158px;
+}
+.prev{
+  left:-55px;
+  top:158px;
+}
+.QA{
+  margin-top:80px;
+  margin-bottom: 80px;
+}
+.QA h2{
+  margin: 0;
+  margin-bottom: 66px;
+}
+.QA-cont{
+  width: 1008px;
+  margin: auto;
+  margin-bottom: 24px;
+}
+.QA-cont hr{
+  margin-top:24px;
+}
+.QA-name{
+  display: flex;
+}
+.QA-name:hover{
+  cursor: pointer;
+}
+.QA-name:hover p{
+  color:#2A6CEA;
+}
+.QA-name:hover path{
+  fill:#2A6CEA;
+}
+.QA-name:hover circle{
+  stroke:#2A6CEA;
+}
+.QA-name p{
+  margin: 0;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 32px;
+  color: #191C1F;
+  width: 936px;
+}
+.QA-name svg{
+  transform:rotate(45deg);
+  align-self: center;
+}
+.QA-slide{
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 32px;
+  color: #5E646A;
+  width: 936px;
+}
+.form{
+  padding-top: 80px;
+  margin-top: 80px;
+  margin-bottom: 80px;
+}
+.form-content{
+  width: 800px;
+  margin: auto;
+}
+.form h2{
+  margin: 0;
+  color: #191C1F;
+}
+.form-cont{
+  display: flex;
+  margin-bottom: 30px;
+  margin-top: 44px;
+}
+.other{
+  display: flex;
+}
+.other p{
+  width: 344px;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 28px;
+  color: #191C1F;
+  margin: 0;
+}
+input[type="text"] {
+  width: 384px;
+  height: 64px;
+  background: #F6F8FA;
+  border: 2px solid #F6F8FA;
+  box-sizing: border-box;
+  border-radius: 4px;
+  margin-right: 32px;
+}
+input[type="number"] {
+  width: 384px;
+  height: 64px;
+  background: #F6F8FA;
+  border: 2px solid #F6F8FA;
+  box-sizing: border-box;
+  border-radius: 4px;
+
+}
+input[type="checkbox"] {
+  align-self: center;
+  margin: 0;
+  margin-right: 16px;
+  width: 24px;
+  height:24px;
+  background: #FFFFFF;
+  border: 2px solid #C2C8CD;
+  box-sizing: border-box;
+  border-radius: 4px;
+}
+.send-button{
+  margin-left: 32px;
+  justify-content: center;
+  align-items: center;
+  width: 384px;
+  height: 64px;
+  background: #2A6CEA;
+  border-radius: 4px;
+}
+.send-button:hover{
+  background: #397DFF;
+  cursor: pointer;
+}
+.send-button p{
+  font-style: normal;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 24px;
+  text-align: center;
+  color: #FFFFFF;
+  flex: none;
   order: 0;
   flex-grow: 0;
   margin: 20px 10px;
+}
+
+
+.footer p{
+  margin-top: 28px;
+  margin-bottom: 28px;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 32px;
+  text-align: center;
+  color: #191C1F;
+}
+.credits{
+
+  height: 662px;
+  background: #F6F8FA;
+}
+.credits h6{
+  margin:0;
+  margin-bottom: 16px;
+  font-family: Graphik LCG;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 32px;
+  color: #191C1F;
+}
+.credits p{
+  margin: 0;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 28px;
+  color: #191C1F;
+}
+.credit-r{
+  padding-top: 67px;
+  margin-bottom: 37px;
+  display: flex
+}
+.credit-l{
+  display: flex;
+}
+.credit-r div:nth-child(1){
+  margin-right: 32px;
+}
+.credit-l div:nth-child(1){
+  margin-right: 32px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.disable{
+  display:none;
+}
+.round{
+  transform:rotate(90deg) !important;
 }
