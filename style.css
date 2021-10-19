@@ -1,0 +1,52 @@
+body{
+  font-family: Graphik LCG;
+  margin:0;
+}
+h1{
+  margin: 0;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 52px;
+  line-height: 64px;
+  text-align: center;
+  color: #FFFFFF;
+}
+.header_text{
+  width: 1920px;
+  height: 960px;
+  background: #2A6CEA;
+  opacity: 0.8;
+}
+.header img{
+  position: absolute;
+  z-index: -100;
+}
+.header p{
+  margin: 0;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 32px;
+  text-align: center;
+  color: #FFFFFF;
+}
+.header_button{
+  position: absolute;
+  width: 251px;
+  height: 64px;
+  background: #ECEFF2;
+  border-radius: 4px;
+
+}
+.header_button p{
+  font-style: normal;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 24px;
+  text-align: center;
+  color: #191C1F;
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+  margin: 20px 10px;
+}
